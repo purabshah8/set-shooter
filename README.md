@@ -11,7 +11,7 @@ Players can jump and shoot a basketball into a hoop from various distances. Game
 
 ## Wireframe
 
-![Wireframe](wireframe.png)
+![Wireframe](Wireframe.png)
 
 ## Implementation Timeline
 
