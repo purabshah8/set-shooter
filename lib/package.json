@@ -1,0 +1,26 @@
+{
+  "name": "shootaround",
+  "version": "1.0.0",
+  "description": "Basketball shooting game built using JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purabshah8/shootaround.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/purabshah8/shootaround/issues"
+  },
+  "homepage": "https://github.com/purabshah8/shootaround#readme",
+  "dependencies": {
+    "three": "^0.99.0",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
