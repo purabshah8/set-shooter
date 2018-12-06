@@ -22,4 +22,4 @@ Create player class, allow for movement and jumping of player
 Create ball class, the physics of shooting the ball and bouncing off rim
 
 ### Phase 3
-Create rim & collision events when the ball & rim make contact
+Create rim & collision events when the ball & rim make contact# Personal Site

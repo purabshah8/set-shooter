@@ -8,9 +8,33 @@ main {
 }
 
 .game-title {
+    font-family: Oswald;
     text-align: center;
+    font-size: 48px;
 }
 
 #canvas {
     margin: 0 auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.links {
+    display: flex;
+    justify-content: center
+}
+
+.links i {
+    font-size: 32px;
+    margin: 0 24px;
+}
+
+.links a:visited {
+    text-decoration: none;
+    color: black;
 }
