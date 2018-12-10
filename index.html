@@ -13,8 +13,11 @@
     <body>
         <main>
             <h1 class="game-title">Shootaround</h1>
-            <canvas id="canvas" width="1024px" height="768px">
-            </canvas>
+            <div class="game-container">
+                <video id="background-video" src="assets/images/background.mp4" loop autoplay type="video/mp4" width="1024" height="578"></video>
+                <canvas id="canvas" width="1024px" height="768px">
+                </canvas>
+            </div>
         </main>
         <footer>
             <div class="links">
@@ -28,6 +31,7 @@
                     <i class="fas fa-user-circle"></i>
                 </a>
             </div>
+            <p>Background by: <a href="https://twitter.com/lennsan_?lang=en">@lennsan_</a></p>
         </footer>
         <script src="./lib/dist/main.js"></script>
 

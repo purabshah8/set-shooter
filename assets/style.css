@@ -13,8 +13,18 @@ main {
     font-size: 48px;
 }
 
+.game-container {
+    position: relative;
+    margin: 0 auto;
+}
+
 #canvas {
     margin: 0 auto;
+}
+
+#background-video {
+    position: absolute;
+    z-index: -5;
 }
 
 footer {
