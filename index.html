@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Shootaround</title>
+        <title>Set Shooter</title>
         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <link rel="stylesheet" href="./assets/style.css" type="text/css">
@@ -12,27 +12,52 @@
     </head>
     <body>
         <main>
-            <h1 class="game-title">Shootaround</h1>
+            <div class="info-container">
+                <div class="instructions">
+                    <h2>How to Play</h2>
+                    <p>Left/right arrow keys to move player</p>
+                    <p>Up/down arrow keys to change shot angle</p>
+                    <p>Press and hold space to shoot</p>
+                </div>
+                <div class="links">
+                    <a href="https://github.com/purabshah8/" >
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/purab-shah-987717b5/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://purabshah8.github.io">
+                        <i class="fas fa-user-circle"></i>
+                    </a>
+                </div>
+            </div>
             <div class="game-container">
                 <video id="background-video" src="assets/images/background.mp4" loop autoplay type="video/mp4" width="1024" height="578"></video>
                 <canvas id="canvas" width="1024px" height="768px">
                 </canvas>
+                <div class="start-screen">
+                    <div class="game-info">
+                        <h1 class="game-title">Set Shooter</h1>
+                        <div class="play-button-container">
+                            <button id="play-button">Play</button>
+                        </div>
+                        <p class="game-description">Make as many shots as you can in 3 tries!</p>
+                    </div>
+                </div>
+                <div class="end-screen hidden">
+                    <div class="end-info">
+                        <h1 class="game-title">Set Shooter</h1>
+                        <h2>Game Over</h2>
+                        <div class="play-button-container">
+                            <button id="play-again-button">Play Again</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer>
-            <div class="links">
-                <a href="https://github.com/purabshah8/" >
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/purab-shah-987717b5/">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://purabshah8.github.io">
-                    <i class="fas fa-user-circle"></i>
-                </a>
-            </div>
-            <p>Background by: <a href="https://twitter.com/lennsan_?lang=en">@lennsan_</a></p>
         </footer>
+        <p>Background: <a href="http://lennsan.tumblr.com/">lennsan</a></p>
         <script src="./lib/dist/main.js"></script>
 
     </body>
