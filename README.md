@@ -1,25 +1,23 @@
-# Shootaround
+# Set Shooter
 
-Basketball shooting game built using JavaScript.
+[Live](https://purabshah8@github.io/set-shooter)
 
-## MVPs
+Basketball shooting game built using JavaScript & HTML5 Canvas. 
 
-Players can jump and shoot a basketball into a hoop from various distances. Game is over when a player misses 3 shots.
 
-- [ ] Players can jump up and down and release the ball 
-- [ ] Ball moves in the air according to physics and goes through or bounces off the rim
+![game](assets/images/set-shooter.gif)
 
-## Wireframe
+## Gameplay
 
-![Wireframe](Wireframe.png)
+The object of the game is to score as many points as possible until the player misses 3 shots.
 
-## Implementation Timeline
+The player can move towards or away from the basket using the left/right arrow keys and adjust the angle of the shot using the up/down arrow keys. Hold the spacebar to accumulate power and and release to shoot the ball. Shots behind the 3 point line are worth, you guessed it, 3 points.
 
-### Phase 1
-Create player class, allow for movement and jumping of player
+## Features
 
-### Phase 2
-Create ball class, the physics of shooting the ball and bouncing off rim
+The game uses projectile motion to move ball & collision detection to bounce ball off obstacles.
+The power bar increases in size as the spacebar is held down until hitting a predefined maximum power. 
 
-### Phase 3
-Create rim & collision events when the ball & rim make contact# Personal Site
+<!-- ## Wireframe
+
+![Wireframe](Wireframe.png) -->
