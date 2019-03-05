@@ -1,6 +1,8 @@
 body {
     margin: 0;
     font-family: Oswald;
+    background: black;
+    color: white;
 }
 
 main {
@@ -14,7 +16,7 @@ a {
 }
 
 a:visited {
-    color: black;
+    color: white;
 }
 
 .info-container {
@@ -133,5 +135,9 @@ a:visited {
 
 .links a:visited {
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+.fas, .fab {
+    color: white;
 }
